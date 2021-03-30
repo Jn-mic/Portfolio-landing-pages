@@ -1,9 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    height: 1200px;
+    height: auto;
     background-color: #f3d7b3;
-    overflow: auto;
 }
 .navbar{
     background-color: white;
@@ -25,10 +24,41 @@ body{
 .navbar, ul, a:hover{
     color: hotpink;
 }
-#Container1{
-    background-color: red;
-    margin: 20px 40px;
-    border-radius: 40px;
-    padding: 20px 30px;
+#main{
+    background-color: seashell;
+    background-position: cover;
     align-items: center;
+    text-align: center;
+    padding: 100px 40px;
+    opacity: 0.6;
+
+}
+#Container1{
+    background-color: rgb(245, 187, 243);
+    margin: 20px 40px; 
+    border-radius: 40px;
+    padding: 100px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+#footer{
+    background-color: rgb(243, 234, 234);
+    background-position: cover;
+    text-align: justify;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    height: 300px;
+    width: auto;
+    padding: 20px 30px;
+}
+div .info{
+    color: red;
+    text-transform: uppercase;
+}
+.overlay{
+ height: 70% 80%;
 }
