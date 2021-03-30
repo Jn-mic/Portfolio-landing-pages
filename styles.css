@@ -1,9 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-}
+
  a , button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -11,14 +6,14 @@
     font: 16px;
     color: white;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 10px;
-
+header{
+    background-color:brown;
+    height: 300px;
+    width: 100%;
 }
-
-.nav{
-    display: inline-block;
+#Container1{
+    background-color: chartreuse;
+    height: 400px;
+    width: 250px;
+    padding: 9em;
 }
