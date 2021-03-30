@@ -4,7 +4,7 @@ JACK OWUOR
 ## Descrition.
 ____________________________________________________________________________________________________________________________________________________________________
 *This is my portfolio for all the projects that I have undertaken.*
-Setup/Installation
+## Setup/Installation
 * HTML
 * CSS
 * JS
