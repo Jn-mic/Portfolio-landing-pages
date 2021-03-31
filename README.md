@@ -5,13 +5,15 @@ My Portfolio landing ages.
 ---
 ## Descrition.
 ---
-*This is my portfolio for all the projects that I have undertaken.*
+*This is my portfolio for all the projects that I have undertaken. *
+ My recent work Practise on git commands.
+
 ---
 ## Setup/Installation
 ---
 To set up it on your local machine,
 
-git remote add "url"
+git remote add "https://github.com/Jn-mic/Portfolio-landing-pages.git"
 
 ---
 
@@ -28,10 +30,10 @@ git remote add "url"
  Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. 
 ## Technologies Used
 ___
-Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+*On this project, I used the folowing languages: HTML, CSS and GIT tools in  creating this app.* 
 ---
 ## Support and contact details.
 ___
-Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.
+If you run into any issues or have questions, ideas or concerns. Kindly contact me or make a contribution to the code.
 _____
 ---

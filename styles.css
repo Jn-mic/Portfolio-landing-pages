@@ -9,11 +9,9 @@ body{
     height: 70px;
     width: 100%;
     margin-top: 0px;
-  
 }
 .navbar, ul, a{
-    display: block;
-    float:right;
+    display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 16px;
@@ -26,39 +24,76 @@ body{
 }
 #main{
     background-color: seashell;
+    background-image: url(/ocean\ \(copy\).jpg);
     background-position: cover;
     align-items: center;
     text-align: center;
     padding: 100px 40px;
     opacity: 0.6;
-
 }
-#Container1{
-    background-color: rgb(245, 187, 243);
+#main img{
+    height: 300px;
+    width: 200px;
+}
+#container1{
     margin: 20px 40px; 
+    height: 400px;
+    width: 100%;
     border-radius: 40px;
     padding: 100px 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    opacity: 0.8;
+}
+.dp1{
+    color: blue;
+    background-color: aquamarine;
+    text-align: centre;
+    margin-right: 30px;
+}
+.dp2{
+    color: green;
+    background-color: rgb(233, 231, 214);
+    text-align: centre;
+    margin-right: 30px;
+}
+.dp3{
+    color: green;
+    background-color: rgb(233, 231, 214);
+    text-align: centre;
+    margin-right: 30px;
+}
+.dpm{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    padding: 30px 40px;
 }
 #footer{
     background-color: rgb(243, 234, 234);
     background-position: cover;
-    text-align: justify;
+    text-align: center;
     color: black;
     display: flex;
-    flex-direction: column;
-    margin:auto;
+    flex-direction: row;
     height: 300px;
     width: auto;
-    padding: 20px 30px;
 }
 div .info{
     color: red;
     text-transform: uppercase;
 }
-.overlay{
- height: 70% 80%;
+.ft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 40px;
+    
+}
+.p1{
+    height: 20px;
+    margin-right: 80px;
+    padding: 20px;
+    background-color: red;
+    color: rgb(233, 231, 214);
 }
