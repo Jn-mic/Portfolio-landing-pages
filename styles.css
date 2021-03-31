@@ -9,10 +9,9 @@ body{
     height: 70px;
     width: 100%;
     margin-top: 0px;
-  
 }
 .navbar, ul, a{
-    display: block;
+    display: inline-block;
     float:right;
     padding: 10px 30px;
     text-decoration: none;
@@ -26,12 +25,16 @@ body{
 }
 #main{
     background-color: seashell;
+    background-image: url(/ocean\ \(copy\).jpg);
     background-position: cover;
     align-items: center;
     text-align: center;
     padding: 100px 40px;
     opacity: 0.6;
-
+}
+#main img{
+    height: 300px;
+    width: 200px;
 }
 #Container1{
     background-color: rgb(245, 187, 243);
@@ -58,7 +61,4 @@ body{
 div .info{
     color: red;
     text-transform: uppercase;
-}
-.overlay{
- height: 70% 80%;
 }
