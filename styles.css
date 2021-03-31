@@ -12,7 +12,6 @@ body{
 }
 .navbar, ul, a{
     display: inline-block;
-    float:right;
     padding: 10px 30px;
     text-decoration: none;
     font-size: 16px;
@@ -68,21 +67,33 @@ body{
     display: flex;
     flex-direction: row;
     margin-right: 5px;
-    padding: 20px 30px;
+    padding: 30px 40px;
 }
 #footer{
     background-color: rgb(243, 234, 234);
     background-position: cover;
-    text-align: justify;
+    text-align: center;
     color: black;
     display: flex;
-    flex-direction: column;
-    margin:auto;
+    flex-direction: row;
     height: 300px;
     width: auto;
-    padding: 20px 30px;
 }
 div .info{
     color: red;
     text-transform: uppercase;
+}
+.ft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 40px;
+    
+}
+.p1{
+    height: 20px;
+    margin-right: 80px;
+    padding: 20px;
+    background-color: red;
+    color: rgb(233, 231, 214);
 }
