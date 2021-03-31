@@ -36,15 +36,39 @@ body{
     height: 300px;
     width: 200px;
 }
-#Container1{
-    background-color: rgb(245, 187, 243);
+#container1{
     margin: 20px 40px; 
+    height: 400px;
+    width: 100%;
     border-radius: 40px;
     padding: 100px 30px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    opacity: 0.8;
+}
+.dp1{
+    color: blue;
+    background-color: aquamarine;
+    text-align: centre;
+    margin-right: 30px;
+}
+.dp2{
+    color: green;
+    background-color: rgb(233, 231, 214);
+    text-align: centre;
+    margin-right: 30px;
+}
+.dp3{
+    color: green;
+    background-color: rgb(233, 231, 214);
+    text-align: centre;
+    margin-right: 30px;
+}
+.dpm{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    padding: 20px 30px;
 }
 #footer{
     background-color: rgb(243, 234, 234);
