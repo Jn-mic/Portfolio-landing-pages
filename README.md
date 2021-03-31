@@ -9,6 +9,10 @@ My Portfolio landing ages.
  My recent work Practise on git commands.
 
 ---
+## LIVE LINK
+ #### [live]{https://jn-mic.github.io/Portfolio-landing-pages/}
+___
+---
 ## Setup/Installation
 ---
 To set up it on your local machine,
