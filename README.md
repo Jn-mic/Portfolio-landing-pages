@@ -5,13 +5,15 @@ My Portfolio landing ages.
 ---
 ## Descrition.
 ---
-*This is my portfolio for all the projects that I have undertaken.*
+*This is my portfolio for all the projects that I have undertaken. *
+ My recent work Practise on git commands.
+
 ---
 ## Setup/Installation
 ---
 To set up it on your local machine,
 
-git remote add "url"
+git remote add "https://github.com/Jn-mic/Portfolio-landing-pages.git"
 
 ---
 
