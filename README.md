@@ -13,7 +13,7 @@ My Portfolio landing ages.
  #### Live: https://jn-mic.github.io/Portfolio-landing-pages/
 ___
 ---
-## Setup/Installation
+## Setup/Installation.
 ---
 To set up it on your local machine,
 
