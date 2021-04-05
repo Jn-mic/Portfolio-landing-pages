@@ -23,7 +23,7 @@ body{
     color: hsl(345, 100%, 71%);
 }
 #main{
-    background-color: seashell;
+    background-color: rgb(202, 209, 209);
     position:cover;
     align-items: center;
     text-align: center;
@@ -43,8 +43,7 @@ body{
 #main img{
     max-width: 300px;
     border-radius: 50%;
-    margin: 30px;
-    background-position: 4vh;
+    
 }
 .container1 {
     background-color: hotpink;
@@ -96,22 +95,24 @@ p{
     margin-right: 20px;
 }
 #viva{
-    background: #f5ff69;
+    background: #c7bebe;
     margin: 10px; 
     height: auto;
     width: 100%;
     padding: 5px;
     display: inline-block;
-    flex-direction: row;
+    position: absolute;
     justify-content: space-evenly;
+    box-sizing: border-box;
     margin-right: 5px;
-    padding: 30px 40px;
+    padding: 30px;
     word-wrap: break-word;
     overflow: hidden;
 }
 
 #viva .viv{
     display: flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-around;
     margin: 40px;
