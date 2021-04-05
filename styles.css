@@ -1,18 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    height: auto;
-    background-color: #f3d7b3;
+    background-color: cornsilk;
 }
 .navbar{
     background-color: white;
-    height: 70px;
     width: 100%;
-    margin-top: 0px;
+    display: block;
 }
 .navbar, ul, a{
     display: inline-block;
-    padding: 10px 30px;
+    padding: 5px ;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700px;
@@ -24,76 +22,103 @@ body{
 }
 #main{
     background-color: seashell;
-    background-image: url(/ocean\ \(copy\).jpg);
-    background-position: cover;
+    background-position:cover;
     align-items: center;
     text-align: center;
-    padding: 100px 40px;
+    padding: 100px 80px;
     opacity: 0.6;
+    display: fle;
+}
+.pro1{
+    display: inline-block;
+    width: 180%;
 }
 #main img{
-    height: 300px;
-    width: 200px;
+    height:300px;
+    width: 300px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    border-radius: 50%;
 }
-#container1{
-    margin: 20px 40px; 
+.container1 {
+    background-color: hotpink;
+    margin: 10px; 
     height: 400px;
     width: 100%;
     border-radius: 40px;
-    padding: 100px 30px;
+    padding: 5px;
+    display: inline-block;
     text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.container1 .dpm{
+    height: 200px;
+    width: 70px auto 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 20;
 }
 .dp1{
-    color: blue;
+    color: rgb(0, 0, 22);
     background-color: aquamarine;
     text-align: centre;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .dp2{
-    color: green;
+    color:black;
     background-color: rgb(233, 231, 214);
     text-align: centre;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .dp3{
     color: green;
     background-color: rgb(233, 231, 214);
     text-align: centre;
-    margin-right: 30px;
+    margin-right: 20px;
 }
-.dpm{
-    display: flex;
+.dp4{
+    color: yellow;
+    background-color: rgb(54, 131, 233);
+    text-align: centre;
+    margin-right: 20px;
+}
+#viva{
+    background-color: #f5ff69;
+    margin: 10px; 
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
     flex-direction: row;
     margin-right: 5px;
     padding: 30px 40px;
+    word-wrap: break-word;
 }
-#footer{
-    background-color: rgb(243, 234, 234);
-    background-position: cover;
-    text-align: center;
-    color: black;
+
+#viva .viv{
     display: flex;
-    flex-direction: row;
-    height: 300px;
-    width: auto;
+    width: 100%;
+    justify-content: space-around;
+    margin: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+    word-wrap: break-word;
+    box-sizing: border-box; 
 }
-div .info{
-    color: red;
-    text-transform: uppercase;
-}
-.ft{
+.viv .dviv{
+    color:black;
+    background-color: hsl(20, 17%, 93%);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin: 40px 40px;
-    
-}
-.p1{
-    height: 20px;
-    margin-right: 80px;
-    padding: 20px;
-    background-color: red;
-    color: rgb(233, 231, 214);
+    margin: 8px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
 }
