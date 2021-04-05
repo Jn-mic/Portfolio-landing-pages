@@ -6,7 +6,8 @@ body{
 .navbar{
     background-color: white;
     width: 100%;
-    display: block;
+    display: inline-block;
+    
 }
 .navbar, ul, a{
     display: inline-block;
@@ -15,10 +16,10 @@ body{
     font-size: 16px;
     font-weight: 700px;
     color: green;
-
+   
 }
 .navbar, ul, a:hover{
-    color: hotpink;
+    color: hsl(345, 100%, 71%);
 }
 #main{
     background-color: seashell;
@@ -26,13 +27,8 @@ body{
     align-items: center;
     text-align: center;
     padding: 100px 80px;
-    opacity: 0.2;
+}
 
-}
-.pro1{
-    display: inline-block;
-    width: 180%;
-}
 #main img{
     height:300px;
     width: 300px;
@@ -57,6 +53,8 @@ body{
     height: 200px;
     width: 70px auto 0;
     display: flex;
+    margin-left: 40px;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -95,6 +93,7 @@ p{
     padding: 5px;
     display: inline-block;
     flex-direction: row;
+    justify-content: space-evenly;
     margin-right: 5px;
     padding: 30px 40px;
     word-wrap: break-word;
