@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: cornsilk;
+    overflow-x: hidden;
 }
 .navbar{
     background-color: white;
@@ -23,18 +24,27 @@ body{
 }
 #main{
     background-color: seashell;
-    background-position:cover;
+    position:cover;
     align-items: center;
     text-align: center;
-    padding: 100px 80px;
+    padding: 40px;
+    height: 400px;
 }
-
+#main .divh{
+    display: inline-block;
+    position: relative;
+    margin: 70px;
+    height: 100px;
+    text-align:center ;
+}
+#main .divh  li {
+    margin: 4 0 4 0;
+}
 #main img{
-    height:300px;
-    width: 300px;
-    margin-bottom: 50px;
-    padding-bottom: 0px;
+    max-width: 300px;
     border-radius: 50%;
+    margin: 30px;
+    background-position: 4vh;
 }
 .container1 {
     background-color: hotpink;
@@ -86,7 +96,7 @@ p{
     margin-right: 20px;
 }
 #viva{
-    background-color: #f5ff69;
+    background: #f5ff69;
     margin: 10px; 
     height: auto;
     width: 100%;
@@ -97,6 +107,7 @@ p{
     margin-right: 5px;
     padding: 30px 40px;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 #viva .viv{
