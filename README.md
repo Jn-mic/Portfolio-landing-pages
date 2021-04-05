@@ -5,12 +5,13 @@ My Portfolio landing ages.
 ---
 ## Descrition.
 ---
-*This is my portfolio for all the projects that I have undertaken. *
+*This is my portfolio for all the projects that I have undertaken.*
  My recent work Practise on git commands.
 
 ---
 ## LIVE LINK
  #### Live: https://jn-mic.github.io/Portfolio-landing-pages
+ 
 ___
 ---
 ## Setup/Installation.
