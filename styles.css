@@ -20,7 +20,7 @@ body{
    
 }
 .navbar, ul, a:hover{
-    color: hsl(345, 100%, 71%);
+    color:rgba(0, 0, 0, .8);
 }
 #main{
     background-color: seashell;
