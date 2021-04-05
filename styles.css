@@ -24,7 +24,7 @@ body{
 }
 #main{
     background-color: seashell;
-    position:cover;
+    position:relative;
     align-items: center;
     text-align: center;
     padding: 40px;
@@ -32,8 +32,8 @@ body{
 }
 #main .divh{
     display: inline-block;
-    position: relative;
-    margin: 70px;
+    width: auto;
+    margin-left: 50px;
     height: 100px;
     text-align:center ;
 }
