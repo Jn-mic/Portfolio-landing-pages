@@ -10,7 +10,7 @@ My Portfolio landing ages.
 
 ---
 ## LIVE LINK
- #### Live: https://jn-mic.github.io/Portfolio-landing-pages/
+ #### Live: https://jn-mic.github.io/Portfolio-landing-pages
 ___
 ---
 ## Setup/Installation.

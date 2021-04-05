@@ -9,6 +9,7 @@ body{
     height: 70px;
     width: 100%;
     margin-top: 0px;
+
 }
 .navbar, ul, a{
     display: inline-block;
@@ -25,15 +26,20 @@ body{
 #main{
     background-color: seashell;
     background-image: url(/ocean\ \(copy\).jpg);
-    background-position: cover;
+    background-position:cover;
     align-items: center;
     text-align: center;
-    padding: 100px 40px;
+    padding: 100px 80px;
     opacity: 0.6;
+}
+.pro1{
+    display: inline-block;
+    width: 180%;
 }
 #main img{
     height: 300px;
-    width: 200px;
+    width: 100px;
+
 }
 #container1{
     margin: 20px 40px; 
@@ -43,31 +49,42 @@ body{
     padding: 100px 30px;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 20;
 }
 .dp1{
-    color: blue;
+    color: rgb(0, 0, 22);
     background-color: aquamarine;
     text-align: centre;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .dp2{
-    color: green;
+    color:black;
     background-color: rgb(233, 231, 214);
     text-align: centre;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .dp3{
     color: green;
     background-color: rgb(233, 231, 214);
     text-align: centre;
-    margin-right: 30px;
+    margin-right: 20px;
+}
+.dp4{
+    color: yellow;
+    background-color: rgb(54, 131, 233);
+    text-align: centre;
+    margin-right: 20px;
 }
 .dpm{
     display: flex;
     flex-direction: row;
     margin-right: 5px;
     padding: 30px 40px;
+    word-wrap: break-word;
 }
 #footer{
     background-color: rgb(243, 234, 234);
