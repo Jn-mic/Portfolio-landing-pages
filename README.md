@@ -10,7 +10,7 @@ My Portfolio landing pages.
 
 ---
 ## LIVE LINK
- #### Live: https://jn-mic.github.io/Portfolio-landing-pages
+ #### [Live]: https://jn-mic.github.io/Portfolio-landing-pages
  
 ___
 ---
