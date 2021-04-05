@@ -1,7 +1,7 @@
 ___
 ## Jack OWUOR.
 ---
-My Portfolio landing ages.
+My Portfolio landing pages.
 ---
 ## Descrition.
 ---
@@ -29,7 +29,7 @@ git remote add "https://github.com/Jn-mic/Portfolio-landing-pages.git"
 1. JS
 1. Git
 
-  Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?
+  Let join hand in making the this project more user friendly. clone it and let share knowledge in making our society place than we found it vide our invention and sharpening another. Coding a community activity. We learn and build one another.
 ## Known Bugs
 ---
  Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. 

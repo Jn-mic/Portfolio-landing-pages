@@ -23,13 +23,8 @@ body{
     color: hsl(345, 100%, 71%);
 }
 #main{
-<<<<<<< HEAD
     background-color: seashell;
     position:relative;
-=======
-    background-color: rgb(202, 209, 209);
-    position:cover;
->>>>>>> 5ca1189ff2b174415400535bccd8670d1282d77b
     align-items: center;
     text-align: center;
     padding: 40px;
