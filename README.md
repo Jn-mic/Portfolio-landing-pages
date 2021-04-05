@@ -17,8 +17,10 @@ ___
 ## Setup/Installation.
 ---
 To set up it on your local machine,
+set a local folder on your local machine,
+initiate git thro; git init,
 
-git remote add "https://github.com/Jn-mic/Portfolio-landing-pages.git"
+git clone add "https://github.com/Jn-mic/Portfolio-landing-pages.git"
 
 ---
 
