@@ -99,13 +99,7 @@ p{
     padding: 30px 40px;
     word-wrap: break-word;
 }
-#footer{
-    background-color: rgb(243, 234, 234);
-    background-position: cover;
-    text-align: center;
-    box-sizing: border-box;
-    overflow: hidden;
-}
+
 #viva .viv{
     display: flex;
     width: 100%;
