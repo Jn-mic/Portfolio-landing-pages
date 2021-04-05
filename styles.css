@@ -22,13 +22,12 @@ body{
 }
 #main{
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color:green;
     position: relative;
     align-items: center;
     text-align: center;
-    padding: 60px ;
-    
+    padding: 60px ;    
 }
 #main img{
     height:300px;
@@ -36,73 +35,67 @@ body{
     margin-bottom: 50px;
     padding-bottom: 0px;
     border-radius: 50%;
-    j
 }
 .container1 {
-    margin: 200px auto 0; 
+    background-color: hotpink;
+    margin: 10px; 
     height: 400px;
     width: 100%;
     border-radius: 40px;
-    padding: 100px 30px;
+    padding: 5px;
+    display: inline-block;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.container1.dp1{
-    color: blue;
-    background-color: aquamarine;
-    text-align: centre;
-    margin-right: 30px;
-}
-.container1 .dp2{
-    color: green;
-    background-color: rgb(233, 231, 214);
-    text-align: centre;
-    
-}
-.container1.dp3{
-    color: green;
-    background-color: rgb(233, 231, 214);
-    text-align: centre;
-    
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 .container1 .dpm{
-    height: aut0;
+    height: 200px;
+    width: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    margin:  30px 40px 30px 40px;
+    padding: 30px; 
+    justify-content: space-around; 
+}
+ .dpm .dp1{
+    color: blue;
+    background-color: hsl(20, 17%, 93%);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 8px;
+    margin-left: 30px 40px;
     flex-wrap: wrap;
-    word-wrap: break-word;
-    margin:  10px;
-    padding: 30px;
+    word-wrap: break-word;  
+    padding: 10px;
 }
-#footer{
-    background-color: rgb(243, 234, 234);
-    background-position: cover;
-    text-align: center;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    word-wrap: break-word;
+.dpm .dp1 h1{
+font-family: cursive;
+color: crimson;
+}
+#viva{
+    background-color: #f5ff69;
+    margin: 10px; 
     height: auto;
     width: 100%;
-}
-div .info{
-    color: red;
-    text-transform: uppercase;
-}
-.ft{
-    display: flex;
+    padding: 5px;
+    display: inline-block;
     flex-direction: row;
-    align-items: center;
-    margin: 40px;
-    
+    margin: 30px;
+    text-align: center;
+    box-sizing: border-box;
 }
-.p1{
-    height: 20px;
-    margin-right: 80px;
-    padding: 20px;
-    background-color: red;
-    color: rgb(233, 231, 214);
+#viva .dpm{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 40px;
+    height: 200px;
+    word-wrap: break-word;
+    box-sizing: border-box;   
+}
+#viva .dpm .dp1{
+    
 }
